@@ -2,11 +2,27 @@
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    flex-flow: row nowrap;
+}
+
 .menu__list{
     display: flex;
-    top: 0%;
-    gap: 15px;
+    gap: 2rem;
+
 }
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
